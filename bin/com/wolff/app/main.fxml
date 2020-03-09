@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="645.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wolff.controller.TVController">
+   <children>
+      <GridPane layoutX="3.0" layoutY="44.0" prefHeight="600.0" prefWidth="1000.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button id="button" fx:id="btnDW" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelDW" stylesheets="@../../../../resources/main.css" text="DW- Espanol" GridPane.columnIndex="9">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnDisneyChannel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelDisney" stylesheets="@../../../../resources/main.css" text="Disney Channel" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnHistory" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelHistory" stylesheets="@../../../../resources/main.css" text="History Channel" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnComedy" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelComedy" stylesheets="@../../../../resources/main.css" text="Comedy Central" GridPane.columnIndex="11" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnMSNBC" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelMSNBC" stylesheets="@../../../../resources/main.css" text="MSNBC" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnTBS" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelTBS" stylesheets="@../../../../resources/main.css" text="TBS" GridPane.columnIndex="9" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnNBC" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelNBC" stylesheets="@../../../../resources/main.css" text="NBC" GridPane.columnIndex="7" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnDisneyXD" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelDisneyXD" stylesheets="@../../../../resources/main.css" text="DisneyXD" GridPane.columnIndex="6" GridPane.rowIndex="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnTelemundo" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelTelemundo" stylesheets="@../../../../resources/main.css" text="Telemundo" GridPane.columnIndex="10">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnUnivision" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelUnivision" stylesheets="@../../../../resources/main.css" text="Univision" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnFoxNews" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelFoxNews" stylesheets="@../../../../resources/main.css" text="FoxNews" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnDiscovery" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelDiscovery" stylesheets="@../../../../resources/main.css" text="Discovery Channel" GridPane.columnIndex="10" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnEuroNews" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelEuroNews" stylesheets="@../../../../resources/main.css" text="EuroNews - Noticias" GridPane.columnIndex="10" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnT13Movil" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelT13Movil" prefHeight="179.0" prefWidth="208.0" stylesheets="@../../../../resources/main.css" text="T13 Movil - Noticias" GridPane.columnIndex="9" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnA24" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelA24" stylesheets="@../../../../resources/main.css" text="A24 - Noticias" GridPane.columnIndex="8">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnAmericaTV" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelAmericaTV" stylesheets="@../../../../resources/main.css" text="America TV - Noticias" GridPane.columnIndex="8" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnTVLand" accessibleText="cronica" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelTVLand" stylesheets="@../../../../resources/main.css" text="TV Land" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnYoutube" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelYoutube" stylesheets="@../../../../resources/main.css" text="YouTube" GridPane.columnIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnTNT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelTNT" stylesheets="@../../../../resources/main.css" text="TNT" GridPane.columnIndex="8" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnMLB" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelMLB" stylesheets="@../../../../resources/main.css" text="MLB Network" GridPane.columnIndex="8" GridPane.rowIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnABCNews" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelABCNews" prefHeight="286.0" prefWidth="213.0" stylesheets="@../../../../resources/main.css" text="ABC News" GridPane.columnIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnFX" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelFX" stylesheets="@../../../../resources/main.css" text="FX" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnFXM" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelFXM" stylesheets="@../../../../resources/main.css" text="FXM" GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnHallmark" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelHallmark" stylesheets="@../../../../resources/main.css" text="Hallmark Channel" GridPane.columnIndex="9" GridPane.rowIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnHBO" accessibleText="hbo" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelHBO" stylesheets="@../../../../resources/main.css" text="HBO" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnCanal13" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelCanal_13" stylesheets="@../../../../resources/main.css" text="Canal 13" GridPane.columnIndex="7">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnABC" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelABC" stylesheets="@../../../../resources/main.css" text="ABC" GridPane.columnIndex="11" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnAMC" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelAMC" stylesheets="@../../../../resources/main.css" text="AMC" GridPane.columnIndex="8" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnCBS" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelCBS" stylesheets="@../../../../resources/main.css" text="CBS" GridPane.columnIndex="9" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnCNBC" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelCNBC" stylesheets="@../../../../resources/main.css" text="CNBC" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnCNN" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelCNN" stylesheets="@../../../../resources/main.css" text="CNN" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnChile" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelTVChile" stylesheets="@../../../../resources/main.css" text="TV Chile">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnESPN" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelESPN" stylesheets="@../../../../resources/main.css" text="ESPN" GridPane.columnIndex="7" GridPane.rowIndex="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnESPN2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelESPN2" stylesheets="@../../../../resources/main.css" text="ESPN2" GridPane.columnIndex="8" GridPane.rowIndex="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnFood" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelFoodNetwork" stylesheets="@../../../../resources/main.css" text="Food Network" GridPane.columnIndex="6" GridPane.rowIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnFOX" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelFox" stylesheets="@../../../../resources/main.css" text="FOX" GridPane.columnIndex="9" GridPane.rowIndex="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnSky" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelSkyNews" prefHeight="53.0" prefWidth="145.0" stylesheets="@../../../../resources/main.css" text="SkyNews" GridPane.columnIndex="11">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnFoxBusiness" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelFoxBusiness" prefHeight="286.0" prefWidth="213.0" stylesheets="@../../../../resources/main.css" text="Fox Business" GridPane.columnIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnFS1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelFS1" prefHeight="286.0" prefWidth="213.0" stylesheets="@../../../../resources/main.css" text="FS1" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnFS2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelFS2" prefHeight="286.0" prefWidth="213.0" stylesheets="@../../../../resources/main.css" text="FS2" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnFreeform" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelFreeform" prefHeight="286.0" prefWidth="213.0" text="Freeform" GridPane.columnIndex="7" GridPane.rowIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnHLN" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelHLN" prefHeight="286.0" prefWidth="213.0" stylesheets="@../../../../resources/main.css" text="HLN" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnHallmarkMovie" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelHallmarkMovie" prefHeight="286.0" prefWidth="213.0" stylesheets="@../../../../resources/main.css" text="Hallmark Movies" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnID" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Channel_ID" prefHeight="286.0" prefWidth="213.0" stylesheets="@../../../../resources/main.css" text="ID" GridPane.columnIndex="7" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnNickelodeon" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelNick" stylesheets="@../../../../resources/main.css" text="Nickelodeon" GridPane.columnIndex="11" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnSHOWTIME" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelShowtime" stylesheets="@../../../../resources/main.css" text="Showtime" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnStarz" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelStarz" stylesheets="@../../../../resources/main.css" text="Starz" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnSundance" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelSundance" stylesheets="@../../../../resources/main.css" text="Sundance" GridPane.rowIndex="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnLifetime" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelLifetime" stylesheets="@../../../../resources/main.css" text="Lifetime" GridPane.columnIndex="11" GridPane.rowIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnTN" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelTN" stylesheets="@../../../../resources/main.css" text="TN - Noticias" GridPane.columnIndex="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btn24horas" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Channel24horas" stylesheets="@../../../../resources/main.css" text="24horas" GridPane.columnIndex="6">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnTravel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelTravel" stylesheets="@../../../../resources/main.css" text="Travel" GridPane.columnIndex="10" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnLifetimeMovie" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelLifetimeMovie" stylesheets="@../../../../resources/main.css" text="Lifetime Movies" GridPane.columnIndex="10" GridPane.rowIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnNatGeo" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelNatGeo" stylesheets="@../../../../resources/main.css" text="Nat Geo" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnTennis" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelTennis" stylesheets="@../../../../resources/main.css" text="Tennis Channel" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnWEATHER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelWeather" stylesheets="@../../../../resources/main.css" text="Weather" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnTLC" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelTLC" stylesheets="@../../../../resources/main.css" text="TLC" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnTCM" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelTCM" stylesheets="@../../../../resources/main.css" text="TCM" GridPane.rowIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnUSA" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelUSA" stylesheets="@../../../../resources/main.css" text="USA" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnFXX" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelFXX" prefHeight="128.0" prefWidth="155.0" stylesheets="@../../../../resources/main.css" text="FXX" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnTeleSur" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelTeleSur" stylesheets="@../../../../resources/main.css" text="TeleSur" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnCronica" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelCronica" stylesheets="@../../../../resources/main.css" text="Cronica" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnNTN24" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelNTN24" stylesheets="@../../../../resources/main.css" text="NTN24" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnAlJazeera" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#ChannelAlJazeera" stylesheets="@../../../../resources/main.css" text="Al Jazeera" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnApagar" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#apagar" stylesheets="@../../../../resources/main.css" GridPane.columnIndex="10" GridPane.rowIndex="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnX" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#exit" stylesheets="@../../../../resources/main.css" text="X" textFill="RED" GridPane.columnIndex="11" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnCbnNews" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#CbnNews" stylesheets="@../../../../resources/main.css" text="CbnNews" GridPane.columnIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnSonLife" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#SonLife" stylesheets="@../../../../resources/main.css" text="btnSonLife" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnGlobalPrayer" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#GlobalPrayer" stylesheets="@../../../../resources/main.css" text="Global Prayer" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" fx:id="btnVictoryChannel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#VictoryChannel" stylesheets="@../../../../resources/main.css" text="Victory Channel" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@../../../../resources/main.css" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@../../../../resources/main.css" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+      <Label alignment="CENTER" layoutX="-1.0" prefHeight="43.0" prefWidth="1000.0" style="-fx-background-color: black;" text="Holly's TV" textFill="#feffaa">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
